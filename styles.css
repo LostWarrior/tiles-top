@@ -1,0 +1,19 @@
+.grid_parent {
+	max-width: 500px;
+	margin: 0 auto;
+	background: #fefefe;
+	border: 1px solid #fff;
+	overflow: overlay;
+	height: auto;
+	margin-top: 10%;
+}
+.row_parent {
+	display: flex;
+	flex-wrap: wrap;
+}
+.tiles {
+	width: 32.8%;
+	min-height: 100px;
+	border: 1px solid #eee;
+	cursor: pointer;
+}
